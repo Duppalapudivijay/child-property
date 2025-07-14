@@ -1,0 +1,45 @@
+.container{
+    background-color: rgb(152, 125, 125);
+    object-fit: cover;
+    width: fit-content;
+    display: none;
+    flex-direction: column;
+   
+   
+}
+.container>div{
+    padding: 5px;
+    border-bottom: 2px;
+    transition: 0.5s ease ;
+}
+#checkbook:checked+.container{
+    display: flex;
+    height: 100px;
+}
+
+.div{
+    background-color: rgb(162, 110, 46);
+    width: fit-content;
+    height: 0px;
+    overflow: hidden;
+    transition: 06s;
+}
+
+.item1{
+    background-color: beige;
+}
+.item2{
+    background-color: brown;
+}
+.item3{
+    background-color: blueviolet;
+}
+.item4{
+    background-color: chocolate;
+}
+.container h1{
+    color: azure;
+    font-style: normal;
+}
+
+
